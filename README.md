@@ -79,19 +79,15 @@ List the key features of your project:
 
 ### For Software:
 
-#### Screenshots (Add at least 3)
-<p align="center">
-  <img src="https://drive.google.com/file/d/1Qa2qDpwTUnfrnvBybVv7h4zKtwJmEL21/view?usp=sharing" alt="Project Banner" width="100%">
-</p>
+#### Screenshots 
+
 https://drive.google.com/file/d/1Qa2qDpwTUnfrnvBybVv7h4zKtwJmEL21/view?usp=sharing
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1Qa2qDpwTUnfrnvBybVv7h4zKtwJmEL21/view?usp=sharing
+https://drive.google.com/file/d/1Gw5LxbQKSkGnSenGNtrwLQJKx-wgnbcC/view?usp=drive_link
+https://drive.google.com/file/d/10h_bKeSiH4yOpIQy6yV61UD8FAGoZux2/view?usp=sharing
+https://drive.google.com/file/d/18lUJH6BUbm_-pG7YqaKCWK_HDXyKGg8M/view?usp=sharing
+https://drive.google.com/file/d/1nyzMHMigGLJf36jrIJJChGe45N0MwX0o/view?usp=sharing
+https://drive.google.com/file/d/1Qa2qDpwTUnfrnvBybVv7h4zKtwJmEL21/view?usp=drive_link
 
 #### Diagrams
 
