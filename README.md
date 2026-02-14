@@ -80,6 +80,9 @@ List the key features of your project:
 ### For Software:
 
 #### Screenshots (Add at least 3)
+<p align="center">
+  <img src="https://drive.google.com/file/d/1Qa2qDpwTUnfrnvBybVv7h4zKtwJmEL21/view?usp=sharing" alt="Project Banner" width="100%">
+</p>
 https://drive.google.com/file/d/1Qa2qDpwTUnfrnvBybVv7h4zKtwJmEL21/view?usp=sharing
 ![Screenshot1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
