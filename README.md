@@ -2,27 +2,28 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# Smart Hospital Token System 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: NULLSET
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Amritha P - [JEC]
+- Member 2: Ripsa N P - [JEC]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+hospital-queue1.netlify.app
 
 ### Project Description
-[2-3 lines about what your project does]
+LineUp is a web-based smart hospital queue management system that allows patients to book tokens digitally and track their waiting time. It helps reduce overcrowding by notifying patients when their consultation time is near.
 
 ### The Problem statement
-[What problem are you solving?]
+Long waiting hours in hospitals cause discomfort for elderly patients and exhaustion for sick individuals, leading to overcrowding and inefficient queue management.
+
 
 ### The Solution
-[How are you solving it?]
+LineUp is a smart digital queue management system that allows patients to book tokens online and monitor their waiting time. The system sends message notifications when their turn is approaching, while hospital staff can efficiently manage the queue to reduce overcrowding and patient discomfort.
 
 ---
 
@@ -31,25 +32,22 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Languages used: HTML,CSS,JavaScript
+- Frameworks used: None
+- Libraries used: None
+- Tools used: VS Code, GitHub, GitHub Pages,Web Browser,ChatGPT
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Online Token Booking
+- Feature 2: Estimated Waiting Time
+- Feature 3: Real-Time Crowd Status
+- Feature 4: Message Notification System
+- Feature 5: Staff Queue Management
+- Feature 6:User-Friendly Interface
 
 ---
 
