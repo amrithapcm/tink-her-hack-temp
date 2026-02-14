@@ -1,0 +1,290 @@
+<body>
+
+<nav class="topbar">
+  <div class="brand">LineUp</div>
+  <div class="top-links">
+    <a href="#">Contact</a>
+    <a href="#">Staff Details</a>
+    <a href="mailto:lineup@hospital.com">Email</a>
+  </div>
+</nav>
+
+</body>
+/* ===== BASIC RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== PAGE BACKGROUND ===== */
+body {
+  background-color: #f5fff8;
+}
+
+/* ===== TOP BAR ===== */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background-color: white;
+  border-bottom: 1px solid #d1fae5;
+}
+
+/* ===== BRAND NAME ===== */
+.brand {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #065f46;
+}
+
+/* ===== RIGHT LINKS ===== */
+.top-links a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #065f46;
+  font-weight: 500;
+}
+
+.top-links a:hover {
+  text-decoration: underline;
+}
+/* ===== HERO IMAGE ===== */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.hero-image img {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+/* ===== HERO LAYOUT ===== */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+/* ===== FUNCTION BOXES ===== */
+.function-box {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 25px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 18px 35px rgba(0,0,0,0.15);
+}
+
+/* Booking box (left) */
+.booking-box {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+}
+
+/* Staff box (right) */
+.staff-box {
+  background: linear-gradient(135deg, #0f766e, #2dd4bf);
+}
+
+.function-box h3 {
+  font-size: 1.4rem;
+}
+
+.function-box p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* ===== ARROW BUTTON ===== */
+.arrow-btn {
+  align-self: flex-end;
+  background: white;
+  color: #065f46;
+  border: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.arrow-btn:hover {
+  transform: translateX(4px);
+}
+
+/* ===== IMAGE ===== */
+.hero-image img {
+  width: 360px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 900px) {
+  .hero-section {
+    flex-direction: column;
+  }
+}
+/* ===== APP INTRO TEXT (CENTERED) ===== */
+.app-intro {
+  margin: 80px auto 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.app-intro h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #065f46;
+  margin-bottom: 14px;
+}
+
+.app-intro p {
+  font-size: 1.05rem;
+  color: #374151;
+  max-width: 620px;
+  line-height: 1.6;
+}
+/* ===== PATIENT PAGE LAYOUT ===== */
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.section {
+  background: white;
+  width: 100%;
+  max-width: 420px;
+  padding: 30px 28px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== HEADINGS ===== */
+.section h2,
+.section h1 {
+  text-align: center;
+  color: #065f46;
+  margin-bottom: 20px;
+}
+
+/* ===== LABELS ===== */
+.section label {
+  display: block;
+  font-weight: 500;
+  margin: 12px 0 6px;
+  color: #374151;
+}
+
+/* ===== INPUTS ===== */
+.section input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #d1fae5;
+  font-size: 1rem;
+  outline: none;
+}
+
+.section input:focus {
+  border-color: #22c55e;
+}
+
+/* ===== BUTTON ===== */
+.section button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.section button:hover {
+  background: #15803d;
+}
+
+/* ===== OUTPUT AREA ===== */
+#patientOutput {
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px dashed #d1fae5;
+}
+
+#patientOutput p {
+  margin: 8px 0;
+  font-weight: 500;
+  color: #065f46;
+  text-align: center;
+}
+/* ===== POPUP OVERLAY (FULL SCREEN & CENTERED) ===== */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* ===== POPUP BOX ===== */
+.popup {
+  background: #ffffff;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+}
+/* ===== HOME PAGE ANIMATED GRADIENT BACKGROUND ===== */
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    -45deg,
+    #e6f9f0,
+    #d1fae5,
+    #ecfeff,
+    #f0fdf4
+  );
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+}
+
+/* Gradient animation */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Staff Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🏥 Hospital Smart Queue</h1>
+
+<div class="container">
+  <div class="section">
+    <h2>Staff Login</h2>
+
+    <label>Select Role</label>
+    <select id="role"
+      style="padding:14px; border-radius:12px; width:100%; max-width:300px;">
+      <option value="doctor">Doctor</option>
+      <option value="admin">Admin</option>
+    </select>
+
+    <button onclick="login()">Login</button>
+  </div>
+</div>
+
+<script>
+function login() {
+  const role = document.getElementById("role").value;
+  localStorage.setItem("staffRole", role);
+  window.location.href = "staff.html";   // ✅ CORRECT
+}
+</script>
+
+</body>
+</html>

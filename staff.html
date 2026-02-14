@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Staff Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>👨‍⚕️ Staff Panel</h1>
+
+<!-- ================= STAFF SECTION (ADMIN / DOCTOR) ================= -->
+<div class="section admin" id="adminSection">
+  <h2>Staff Section</h2>
+
+  <p>
+    Current Token Being Served:
+    <strong><span id="currentToken">0</span></strong>
+  </p>
+
+  <p id="currentPatient"></p>
+
+  <div class="admin-buttons">
+    <button id="serveBtn" onclick="serveNext()">Serve Next</button>
+    <button onclick="pauseQueue()">Pause</button>
+    <button onclick="resumeQueue()">Resume</button>
+  </div>
+
+  <p id="pauseStatus"></p>
+</div>
+
+<!-- MAIN QUEUE LOGIC -->
+<script src="script.js"></script>
+
+<!-- 🔐 ROLE-BASED ACCESS CONTROL (ADD THIS) -->
+<script>
+  const role = localStorage.getItem("staffRole");
+
+  // If user opens staff.html directly without login
+  if (!role) {
+    window.location.href = "index.html";
+  }
+
+  // Doctor → hide Serve Next
+  if (role === "doctor") {
+    document.getElementById("serveBtn").style.display = "none";
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LineUp – Hospital Queue</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== TOP NAV BAR ===== -->
+<nav class="topbar">
+  <div class="brand">LineUp</div>
+ <div class="top-links">
+  <a href="javascript:void(0)" onclick="openContact()">Contact</a>
+  <a href="javascript:void(0)" onclick="openStaff()">Staff Details</a>
+  <a href="mailto:lineup@hospital.com">Email</a>
+</div>
+</nav>
+<!-- ===== HERO SECTION ===== -->
+<div class="hero-section">
+
+  <!-- LEFT BOX -->
+  <div class="function-box booking-box"
+     onclick="window.location.href='patient.html'">
+  <h3>Token Booking</h3>
+  <p>Book your slot easily</p>
+  <button class="arrow-btn">→</button>
+</div>
+
+  <!-- CENTER IMAGE -->
+  <div class="hero-image">
+    <img src="hospital.jpeg" alt="Hospital Image">
+  </div>
+
+  <!-- RIGHT BOX -->
+  <div class="function-box staff-box"
+     onclick="window.location.href='login.html'">
+  <h3>Staff Login</h3>
+  <p>Doctor & Admin access</p>
+  <button class="arrow-btn">→</button>
+</div>
+</div>
+<section class="app-intro">
+  <h1>Smart Hospital Queue, Zero Waiting</h1>
+  <p>
+    Digitally book tokens, monitor real-time queues,
+    and eliminate long waiting hours.
+  </p>
+</section>
+<!-- ===== CONTACT POPUP ===== -->
+<div class="popup-overlay" id="contactPopup">
+  <div class="popup">
+    <h2>Contact Us</h2>
+    <p><strong>Hospital:</strong> City General Hospital</p>
+    <p><strong>Phone:</strong> +91 98765 43210</p>
+    <p><strong>Email:</strong> lineup@hospital.com</p>
+    <button onclick="closePopups()">Close</button>
+  </div>
+</div>
+
+<!-- ===== STAFF DETAILS POPUP ===== -->
+ <div class="popup-overlay" id="contactPopup">...</div>
+<div class="popup-overlay" id="staffPopup">
+  <div class="popup">
+    <h2>Staff Details</h2>
+    <p><strong>Available Doctors</strong></p>
+    <p>• General Physician</p>
+    <p>• Orthopedic</p>
+    <p>• Pediatrician</p>
+    <p>• Gynecologist</p>
+    <button onclick="closePopups()">Close</button>
+  </div>
+</div>
+</body>
+</html>
