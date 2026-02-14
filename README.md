@@ -82,8 +82,6 @@ List the key features of your project:
 #### Screenshots 
 
 
-https://drive.google.com/file/d/1nyzMHMigGLJf36jrIJJChGe45N0MwX0o/view?usp=sharing
-
 https://drive.google.com/file/d/1Gw5LxbQKSkGnSenGNtrwLQJKx-wgnbcC/view?usp=drive_link
 
 https://drive.google.com/file/d/10h_bKeSiH4yOpIQy6yV61UD8FAGoZux2/view?usp=sharing
